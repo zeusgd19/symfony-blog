@@ -77,24 +77,7 @@
                 <hr class="line">
                 <div id="form" class="col-xs-12 col-sm-6 col-sm-push-3">
                     <form class="form-horizontal">
-                        <div class="form-group">
-                            <div class="col-xs-12 col-sm-6">
-                                <label class="label-control">Name</label>
-                                <input type="text" class="form-control">
-                            </div>
-                            <div class="col-xs-12 col-sm-6">
-                                <label class="label-control">Email</label>
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-xs-12">
-                                <label class="label-control">Type Your Comment</label>
-                                <textarea class="form-control"></textarea>
-                                <a href="" class="btn btn-lg btn-info sr-button">SEND</a>
-                            </div>
-                        </div>
-                    </form>
+                        {{ include ('partials/_form_comment.html.twig') }}
                 </div>
             </div>
         </div>
