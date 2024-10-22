@@ -30,8 +30,12 @@ $('.popup-gallery').magnificPopup({
 //add of active class for table link which is clicked(index-body)
   $('.link').click(function(){
     $('.table td a.active').removeClass('active');
+    $('.tab-pane').removeClass('active');
     $(this).addClass('active');
+    let id = $(this).attr('href');
+    $(id).addClass('active');
   })
+
 
 //Activation of the tooltip
 $(function(){

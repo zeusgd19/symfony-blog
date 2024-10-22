@@ -29,7 +29,5 @@ class ContactController extends AbstractController
                 return $this->render('contact.html.twig',[
                     'form' => $formulario->createView()
                 ]);
-
-
     }
 }
