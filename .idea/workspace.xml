@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9f092c-b104-48c4-9d71-49d1c21f393d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/partials/_comment.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/partials/_form_comment.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/_form_comment.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/single_post.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/single_post.html.twig" afterDir="false" />
     </list>
@@ -235,7 +232,9 @@
       <workItem from="1729148959392" duration="6708000" />
       <workItem from="1729161067962" duration="792000" />
       <workItem from="1729490550278" duration="6438000" />
-      <workItem from="1729583759224" duration="5340000" />
+      <workItem from="1729583759224" duration="6034000" />
+      <workItem from="1729591290587" duration="255000" />
+      <workItem from="1729625916567" duration="1218000" />
     </task>
     <servers />
   </component>
